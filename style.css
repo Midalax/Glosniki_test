@@ -1,0 +1,361 @@
+html
+{
+    scroll-behavior: smooth;
+    margin: 0px;
+}
+body
+{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgb(19, 19, 19) 14%, rgba(19, 19, 19) 59%, rgba(0,0,0,1) 100%);
+   
+}
+
+a
+{
+    scroll-padding-top: -180px;
+    scroll-margin-top: 180px;
+}
+
+header
+{
+    position: sticky;
+    top: 0.1vw;
+    z-index: 999;
+}
+
+#Header
+{
+  overflow:visible;
+  height: 4.5vw;
+  width: 100%;
+  backdrop-filter: blur(4px);
+  background-color: rgba(79, 121, 183, 0.505);
+  box-shadow: inherit;
+  margin: 0;
+  border: none;
+}
+
+.Napis
+{
+    font-size: 2.7vw;
+    line-height: 4vw;
+    font-family: 'Archivo', thinItalic;
+    text-shadow: 0 0px 20px rgb(0, 0, 0);
+}
+
+.menu_mark:hover
+{
+    background-color: rgba(254, 254, 254, 0.288);
+  
+
+}
+.menu_mark
+{   
+    
+    padding: 1vw;
+    margin: 0.7vw;
+    width: 7vw;
+    height: 1vw;
+    float: left;
+    font-size: 1.2vw;
+    outline-offset: 0.2vw; 
+    outline-width: 0.2vw;
+    outline-style: solid;
+    position: relative;
+    float:right;
+    text-align: center;
+    margin-right: 1.5vw;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    
+}
+
+
+
+
+
+#Main_info{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5vw;
+    max-width: 100%;
+    height: 45vw;
+    background-color: #1b1b3afd;
+    filter: blur(15,15);
+    background-size: 100%;
+    background-image: url("images/DJ.jpg");
+    background-size: 110%;
+    background-blend-mode:overlay;
+    position: inherit;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 120%;
+    box-shadow: 0 0 40px 5px #1c1c1c;
+    
+
+    
+
+}
+
+
+#Main_info_text
+{
+    
+    align-self: center;
+
+ 
+    
+}
+
+
+h3
+{
+    
+    font-size: 2vw;
+    text-align:start;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+}
+
+.underline
+{
+    width: 50%;
+}
+
+#scroller
+{
+    scroll-margin-block-end: 150px;
+    color: aqua;
+}
+
+#logo
+{
+    margin-top: 0.9vw;
+    margin-left: 2vw;
+    width: 15vw;
+    filter: invert(100%) brightness(118%) contrast(100%);
+
+}
+
+
+h1{
+    padding-top: 5vw;
+    font-size: 5vw;
+    text-shadow: 0 0px 20px rgb(0, 0, 0);
+}
+hr
+{
+width: 90%;
+background-color: rgba(79, 121, 183, 0.505);
+border-color: rgba(79, 121, 183, 0.505);
+}
+
+#Sprzet
+{
+    font-size: 3vw;
+    margin-top: 10vw;
+    margin-bottom: 1%;
+    text-align: center;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+}
+#Dojazd
+{
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+
+
+
+
+#content_mark
+{
+    border: 1px solid;
+    border-radius: 10px;
+color: bisque;
+}
+
+
+
+#Info_box
+{
+    
+    border-color: rgb(33, 155, 78);
+    height: 40vw;
+    
+}
+
+#Text_box
+{
+    float: left;
+    margin-left: 5vw;
+    width: 55%;
+    border: 1px solid;
+    border-color: rgba(255, 0, 0, 0);
+    border-radius: 10px;
+    height: fit-content;
+    
+    
+}
+
+#Text_box_content
+{
+    font-size: 1.6vw;
+    color: white;
+    padding: 2vw;
+    text-align: justify;
+}
+#Img_box
+{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+    
+}
+
+@media(max-width: 800px) {
+    #Img_box{
+        display: none;
+    }
+    #Text_box
+    {
+width: 70%;
+margin-left: 15%;
+margin-right: 15%;
+    }
+    #Text_box_content
+    {
+        font-size: 3vw;
+    }
+    #Sprzet
+    {
+        font-size: 6vw;
+    }
+    .Napis
+    {
+        
+        font-size: 3vw;
+    }
+    h1
+    {
+        font-size: 5vw;
+    }
+    #Header
+    {
+        overflow:visible;
+        height: 8vw;
+        width: 100%;
+        backdrop-filter: blur(4px);
+        background-color: rgba(79, 121, 183, 0.505);
+        box-shadow: inherit;
+        margin: 0;
+        border: none;
+    }
+    .menu_mark
+    {
+        margin-top: 1.5vw;
+        width: 13vw;
+        height: 3vw;
+        float: right;
+        font-size: 3vw;
+        outline-style: solid;
+        text-align: center;
+        margin-right: 1.2vw;
+       
+    
+    
+        color: white;
+        font-family: 'Archivo', sans-serif;
+    }
+    #logo
+    {
+        margin-top: 2vw;
+        margin-left: 2vw;
+        width: 20vw;
+    }
+
+
+
+}
+
+#Info_img {
+   
+        
+      
+    margin-top: 13vw;
+    opacity: 40%;
+    object-fit: contain;
+    width: 100%;
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+
+}
+
+#Dojazd_info
+{
+    margin-left: 15vw;
+    
+    height: 40vw;
+    width: 70vw;
+    text-align: center;
+
+    
+}
+#map_img
+{
+    
+    height: 70%;
+    box-shadow: 0 0 20px 5px rgb(86, 86, 86);
+  
+}
+
+#Table_box
+{
+    width:fit-content;
+   
+    display: table;
+    outline: 10px;
+}
+
+
+.cennik {
+    margin-top: 5vw;
+    font-size: 3vw;
+    text-align: left;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border:1px solid;
+    border-collapse: collapse;
+  }
+
+td,tr{
+    border:1px double;
+    border-collapse: collapse;
+    font-family: 'Archivo', sans-serif;
+  }
+.kontakt
+{
+    font-family: 'Archivo', sans-serif;
+    margin-top: 1%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 3vw;
+}
+footer
+{
+    padding-top: 5vw;
+font-family: 'Archivo', sans-serif;
+color: white;
+text-align: center;
+}
