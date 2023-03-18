@@ -301,69 +301,13 @@ color: white;
 text-align: center;
 }
 
-@media (max-width: 992px){
-    @media(max-width: 800px) {
-        #Img_box{
-            display: none;
-        }
-        #Text_box
+
+    @media screen and (height > 600px) {
+        #Main_info
         {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
-        }
-        #Text_box_content
-        {
-            font-size: 3vw;
-        }
-        #Sprzet
-        {
-            font-size: 6vw;
-        }
-        .Napis
-        {
-            
-            font-size: 3vw;
-        }
-        h1
-        {
-            font-size: 5vw;
-        }
-        #Header
-        {
-            overflow:visible;
-            height: 8vw;
-            width: 100%;
-            backdrop-filter: blur(4px);
-            background-color: rgb(1, 95, 235);
-            box-shadow: inherit;
-            margin: 0;
-            border: none;
-        }
-        .menu_mark
-        {
-            margin-top: 1.5vw;
-            width: 13vw;
-            height: 3vw;
-            float: right;
-            font-size: 3vw;
-            outline-style: solid;
-            text-align: center;
-            margin-right: 1.2vw;
-           
-        
-        
-            color: rgb(255, 0, 0);
-            font-family: 'Archivo', sans-serif;
-        }
-        #logo
-        {
-            margin-top: 2vw;
-            margin-left: 2vw;
-            width: 20vw;
+            background-color: crimson;
         }
     
     
     
     }
-}
