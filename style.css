@@ -302,7 +302,7 @@ text-align: center;
 }
 
 
-    @media screen and (height > 600px) {
+    @media screen and (height < 600px) {
         #Main_info
         {
             background-color: crimson;
