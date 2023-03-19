@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 711.27 830.7">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        font-family: AtaryDemo, Atary_Demo;
+        font-size: 114px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-4" width="355.63" height="693.91"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-4" x="355.63" y="0" width="355.63" height="693.91"/>
+    </clipPath>
+  </defs>
+  <g id="Diamencik">
+    <g>
+      <g id="_Powtarzanie_lustrzane_" data-name="&amp;lt;Powtarzanie lustrzane&amp;gt;">
+        <g class="cls-3">
+          <polygon points="24.56 132.94 137.6 74.51 171.47 74.51 62.66 199.83 113.46 286.62 297.63 74.51 355.63 74.51 355.63 0 93.14 0 0 90.18 24.56 132.94"/>
+          <polygon points="140.98 331.5 210.42 250.64 272.23 393.74 355.63 393.74 355.63 458.09 311.18 458.09 357.75 527.52 355.63 693.91 140.98 331.5"/>
+        </g>
+      </g>
+      <g id="_Powtarzanie_lustrzane_-2" data-name="&amp;lt;Powtarzanie lustrzane&amp;gt;">
+        <g class="cls-2">
+          <polygon points="686.71 132.94 573.67 74.51 539.8 74.51 648.61 199.83 597.8 286.62 413.64 74.51 355.63 74.51 355.63 0 618.12 0 711.27 90.18 686.71 132.94"/>
+          <polygon points="570.28 331.5 500.85 250.64 439.04 393.74 355.63 393.74 355.63 458.09 400.09 458.09 353.52 527.52 355.63 693.91 570.28 331.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Warstwa_3" data-name="Warstwa 3">
+    <text class="cls-5" transform="translate(60.58 829.43)"><tspan x="0" y="0">KOR</tspan><tspan class="cls-1" x="255.24" y="0">P</tspan><tspan x="327.06" y="0">AND</tspan></text>
+  </g>
+</svg>
