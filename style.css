@@ -303,11 +303,7 @@ text-align: center;
 
 
     @media screen and (height < 600px) {
-        #Main_info
-        {
-            background-color: crimson;
-        }
-    
+        
         #Img_box{
             display: none;
         }
@@ -341,7 +337,7 @@ text-align: center;
         height: 8vw;
         width: 100%;
         backdrop-filter: blur(4px);
-        background-color: rgb(1, 95, 235);
+        background-color: rgba(79, 121, 183, 0.505);
         box-shadow: inherit;
         margin: 0;
         border: none;
@@ -359,7 +355,7 @@ text-align: center;
        
     
     
-        color: rgb(255, 0, 0);
+        color: white;
         font-family: 'Archivo', sans-serif;
     }
     #logo
